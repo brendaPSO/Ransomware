@@ -17,7 +17,7 @@ def decrypt(items, key):
             file.write(decrypted_data)
        
 if __name__=='__main__':
-    path_to_encrypt = '/home/kali/Documents/Projeto_SASI/Arquivos'
+    path_to_encrypt = '/home/kali/Documents/Ransomware/Arquivos/'
     os.remove(path_to_encrypt+'/'+'readme.txt')
     items = os.listdir(path_to_encrypt)
     full_path = [path_to_encrypt+'/'+item for item in items]
